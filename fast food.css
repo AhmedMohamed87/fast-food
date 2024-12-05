@@ -1,0 +1,207 @@
+*{
+  
+    margin: 0px;
+    
+}
+#imagebackground{
+    background-size:cover;
+
+    background-image: url('burger.jpg');
+    height: 130vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+    
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 6rem;
+    
+    
+    
+    
+    /* width: 340rem;
+    height: 100vh; */
+    
+}
+.image img{
+    width: 2rem;
+   
+}
+.image button {
+    height: 35vh;
+    cursor: pointer;    
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+/* .arrow{
+
+    margin-left: 78rem;
+    margin-top: 5rem;
+} */
+ .log{margin-left: .7rem;
+width: 15rem;}
+ .list{
+display: flex;
+justify-content: space-between;
+color: aliceblue;
+font-size: .2rem;
+ }
+ .list ul {
+    display: flex;
+    
+justify-content: space-between;
+color: aliceblue;
+font-size: 1.3rem;
+ 
+ margin-right: 1rem;
+ list-style-type: none;
+ margin-top: 3rem;
+ }
+ .list li{ padding: .5rem;
+}
+.FacebookIcon{
+    width: 40px;
+    
+}
+.backgroundColor{background-color: rgb(73, 30, 30);
+padding: 1rem;}
+.fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 18rem;
+    margin-left: 18rem;
+    
+    color: aliceblue;
+    
+
+}
+label{font-size: 1.5rem;}
+input , select{
+    width: 22rem;
+    height: 6vh;
+    border-radius: .5rem;
+}
+
+.pE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 18rem;
+    margin-left: 18rem;
+    
+    color: aliceblue;
+}
+.cr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 18.3rem;
+    margin-left: 18rem;
+    
+    color: aliceblue;
+    
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 2rem;
+   
+    
+}
+textarea{
+    border-radius: 1rem;
+margin-top: .2rem;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: .3rem;
+    
+}
+.inputS{height: 8vh;
+background-color: rgb(148, 14, 88);
+border: none;
+font-size: 1.5rem;
+color: aliceblue;
+margin-top: 1rem;
+}
+.language{
+    width: 3rem;
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(73, 30, 30) ;
+    color: aliceblue;
+
+
+}
+.h1{
+display: flex;
+    justify-content: center;
+    background-color: rgb(73, 30, 30) ;
+    color: rgb(207, 112, 57);
+    padding-top: 3rem;
+    font-size: 1.3rem;
+    
+    
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(73, 30, 30) ;
+    color: aliceblue;
+    padding-top: 5rem;   
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(73, 30, 30) ;
+    color: rgb(207, 112, 57);
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    
+}
+.line{
+    width: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    margin-top: 16rem;
+}
+@media (min-width:320px) and (max-width:2560px) {
+    
+}
+@media (min-width:320px) and (max-width:1336px) {
+    
+}
+@media (min-width:320px) and (max-width:1336px) {
+    
+}
+@media (min-width:320px) and (max-width:1336px) {
+    
+}

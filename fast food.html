@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health&Wellness</title>
+  <link rel="shortcut icon" href="img d.png" type="image/x-icon">
+  <link rel="stylesheet" href="fast food.css">
+  <script src="fast food.js"></script>
+
+</head>
+
+<body>
+
+  <div id="imagebackground">
+    <div class="list">
+      <img src="img d 1.png" alt="img" class="log">
+
+      <ul>
+        <li>MENU</li>
+        <li>LOCATIONS</li>
+        <li>ORDER NOW</li>
+        <li>FEEDBACK</li>
+        <li>ABOUT US</li>
+        <li>BAHRAIN</li>
+        <li>
+          <select name="" id="" class="language">
+            <option>AR</option>
+            <option>EG</option>
+          </select>
+        </li>
+
+        <li><img src="facebook log.svg" alt="img" class="FacebookIcon"></li>
+        <li> <img src="instagram icon.svg" alt="img" class="FacebookIcon"></li>
+      </ul>
+    </div>
+    <div class="image">
+      <button onclick="change()"> <img src="arrow_back_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""
+          class="arrow"> </button>
+      <button onclick="change()"> <img src="arrow_forward_ios_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""
+          class="arrow"> </button>
+    </div>
+    <div class="radio">
+      <img src="radio.svg" id="img1" alt="">
+      <img src="radio.svg" id="img2" alt="">
+      <img src="radio.svg" id="img3" alt="">
+    </div>
+  </div>
+
+
+
+
+  <div class="p">
+    <P>
+      _________________________________________________________________________________________________________________________________________
+    </P>
+  </div>
+  <div class="h1">
+    <h1>Order your favorite dishes today</h1>
+  </div>
+  <div>
+    <h1 class="h2">talabat</h1>
+  </div>
+
+  <p class="p">
+    _________________________________________________________________________________________________________________________________________
+  </p>
+
+  <h1 class="h3">WE VALUE YOUR FEEDBACK</h1>
+  </div>
+  <form action="https://wa.me/201129111792?text=مرحبًا،%20أحتاج%20إلى%20مساعدة " method="post">
+    <div class="backgroundColor">
+      <div class="fl">
+        <div>
+          <label for="">First Name</label>
+          <br> <input id="first_name" type="text" name="first_name" required="required" />
+        </div>
+        <div>
+          <label for="">Last Name</label>
+          <br> <input type="text" name="last_name" required="required">
+        </div>
+
+      </div>
+      <div>
+
+        <div class="pE">
+          <div>
+            <label for="">Phone Number</label>
+            <br> <input type="tel" name="phone" required="required" />
+          </div>
+          <div>
+            <label for="">Email Address</label>
+            <br><input id="email" type="email" name="email" required="required" />
+          </div>
+        </div>
+      </div>
+      <div class="cr">
+        <div>
+          <label for="">Country</label>
+
+          <br> <select name="country" required>
+            <option value="">Select country</option>
+            <option value="Bahrain">Bahrain</option>
+            <option value="Qatar">Qatar</option>
+            <option value="Kuwait">Kuwait</option>
+            <option value="UAE">UAE</option>
+            <option value="KSA">KSA</option>
+            <option value="Other">Other</option>
+
+          </select>
+        </div>
+        <div>
+          <label for="">Restaurant location</label>
+          <br> <select name="store" required>
+            <option value="">Select location</option>
+            <option value="N/A">N/A</option>
+            <option style="display: none;" cid="2" value="Ajdan Walk,  Khobar">Ajdan Walk, Khobar</option>
+
+          </select>
+        </div>
+      </div>
+      <div>
+        <div class="message">
+          <label for="">Message</label>
+
+          <div>
+            <textarea name="message" rows="5" cols="90" required="required"></textarea>
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="submit">
+          <input type="submit" value="SEND YOUR FEEDBACK" class="inputS">
+          <!-- <input type="submit" name="send-your-feedback" value="Send your feedback"/> -->
+        </div>
+
+
+
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </form>
+  <script>
+    document.addEventListener("DOMContentLoaded", setInterval(change, 3000))
+    function change() {
+
+      var source = document.getElementById('imagebackground');
+    
+      /* switch (source.style.backgroundImage) {
+        case 'url("burger.jpg")':
+        source.style.backgroundImage = 'url("sweets.jpg")';
+          break;
+        case 'url("sweets.jpg")':
+        source.style.backgroundImage = 'url("hotdog.jpg")';
+          break;
+
+        default:
+        source.style.backgroundImage = 'url("hotdog.jpg")';
+          break;
+      }  */
+      var image1= document.getElementById('img1');
+       var image2= document.getElementById('img2');
+       var image3= document.getElementById('img3');
+        
+        if(source.style.backgroundImage=='url("burger.jpg")') {
+             source.style.backgroundImage ='url("sweets.jpg")';
+         
+             image2.src='radio2.svg';
+             image1.src='radio.svg';
+             image3.src='radio.svg';
+         }
+         else if(source.style.backgroundImage=='url("sweets.jpg")'){
+             source.style.backgroundImage='url("hotdog.jpg")';
+             image3.src='radio2.svg';
+             image2.src='radio.svg';
+             image1.src='radio.svg';
+         }
+         
+       
+         
+         else { 
+             source.style.backgroundImage='url("burger.jpg")';
+                 image1.src='radio2.svg';
+             image2.src='radio.svg';
+             image3.src='radio.svg'; 
+         }  
+         
+    }
+  </script>
+
+
+</body>
+
+</html>
