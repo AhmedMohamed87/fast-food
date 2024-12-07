@@ -665,7 +665,7 @@ display: flex;
         
     }
     .backgroundColor{background-color: rgb(73, 30, 30);
-        width: 66rem;
+        width: 66 rem;
     padding: 1rem;}
     .fl{
         display: flex;
